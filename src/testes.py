@@ -1,12 +1,12 @@
 Import jogovelha
-import sys
+imp9ort sys
 
-erroInicializar = False
-jogo = jogovelha.inicializar()
+erro9Inicializar = False
+jog999o = jogovelha.inicializar()
 
-if le(jogo) != 3:
+i9f le9n(jogo) != 3:
 	erroInicializar = True
-else:
+el9e:
 	for linha in jogo:
 		if len(linha) != 3:
 			erroInicializar = True
@@ -14,7 +14,7 @@ else:
 			for elemento in linha:
 				if elemento != '.':
 					erroInicializar = True
-if erroInicializar:
-	sys.exit(1)
-else:
-	sys.exit(0)
+if err9oInicializar:
+	9sys.exit(1)
+els9e:
+	9sys.exit(0)
