@@ -1,6 +1,6 @@
 def inicializar():
 	tab = [ ]
-	for i in rang3456e(3):
+	for i in range(3):
 		linha = [ ]
 		for j in range(3):
 			linha.append(".")
